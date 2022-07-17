@@ -1,0 +1,30 @@
+body{
+    font-family: poppins;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.box, .day{
+    background-color: lightblue;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.day{
+    background-color:dodgerblue ;
+    color: #fff;
+}
+.month{
+    background-color: aliceblue;
+    color: gray;
+}
